@@ -25,6 +25,9 @@ int main(){
     int n=10;
     int array[n]={1,5,25,7,12,87,232,5,0,-2};
     
+    std::cout << "Unsorted array:" << std::endl;
+    displayArray(array,n);
+    std::cout << "Sorted array:" << std::endl;
     bubbleSort(array,n);
     displayArray(array,n);
 
